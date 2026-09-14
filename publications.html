@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications | DTIS Research Lab</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: { extend: { colors: { navy: { 800: '#1e293b', 900: '#0f172a' } } } }
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased flex flex-col min-h-screen">
+
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="index.html" class="text-xl font-bold tracking-tight text-navy-900 flex items-center gap-2">
+                <i class="fa-solid fa-shield-halved text-blue-600"></i> DTIS Lab
+            </a>
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
+                <a href="index.html" class="hover:text-blue-600 transition">Home</a>
+                <a href="about.html" class="hover:text-blue-600 transition">About</a>
+                <a href="research.html" class="hover:text-blue-600 transition">Research</a>
+                <a href="publications.html" class="text-blue-600 font-semibold">Publications</a>
+                <a href="team.html" class="hover:text-blue-600 transition">Team</a>
+                <a href="contact.html" class="hover:text-blue-600 transition">Contact</a>
+            </nav>
+            <a href="contact.html#join" class="hidden md:inline-block text-sm font-medium bg-navy-900 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition">Join Us</a>
+        </div>
+    </header>
+
+    <main class="flex-grow py-16">
+        <div class="max-w-4xl mx-auto px-6">
+            <h1 class="text-3xl font-bold text-navy-900 mb-4">Publications</h1>
+            <p class="text-slate-600 mb-12 leading-relaxed">
+                Explore peer-reviewed journal papers, conference proceedings, and technical articles authored by DTIS Lab researchers.
+            </p>
+
+            <div class="space-y-6">
+                <!-- Publication 1 -->
+                <div class="p-6 bg-white rounded-xl border border-slate-200 shadow-sm">
+                    <span class="text-xs font-semibold text-blue-600 uppercase tracking-wide">IEEE Transactions (2026)</span>
+                    <h3 class="text-lg font-bold text-navy-900 mt-1 mb-2">
+                        <a href="#" class="hover:text-blue-600 transition">Privacy-Preserving Identity Management in Distributed Trust Architectures</a>
+                    </h3>
+                    <p class="text-sm text-slate-600 mb-3">Krishno Dey, Quazi Mohona, Saqib Hakak</p>
+                    <div class="flex gap-4 text-xs font-medium text-slate-500">
+                        <a href="#" class="hover:text-blue-600"><i class="fa-solid fa-file-pdf mr-1"></i> PDF</a>
+                        <a href="#" class="hover:text-blue-600"><i class="fa-solid fa-code mr-1"></i> Code</a>
+                        <a href="#" class="hover:text-blue-600"><i class="fa-solid fa-quote-left mr-1"></i> Cite</a>
+                    </div>
+                </div>
+
+                <!-- Publication 2 -->
+                <div class="p-6 bg-white rounded-xl border border-slate-200 shadow-sm">
+                    <span class="text-xs font-semibold text-blue-600 uppercase tracking-wide">ACM Conference (2025)</span>
+                    <h3 class="text-lg font-bold text-navy-900 mt-1 mb-2">
+                        <a href="#" class="hover:text-blue-600 transition">An Empirical Analysis of Zero-Knowledge Authentication Protocols</a>
+                    </h3>
+                    <p class="text-sm text-slate-600 mb-3">Prerona Tarannum, Morteza Hashemi, Saqib Hakak</p>
+                    <div class="flex gap-4 text-xs font-medium text-slate-500">
+                        <a href="#" class="hover:text-blue-600"><i class="fa-solid fa-file-pdf mr-1"></i> PDF</a>
+                        <a href="#" class="hover:text-blue-600"><i class="fa-solid fa-code mr-1"></i> Code</a>
+                        <a href="#" class="hover:text-blue-600"><i class="fa-solid fa-quote-left mr-1"></i> Cite</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-navy-900 text-slate-300 py-16">
+        <div class="max-w-6xl mx-auto px-6 text-center text-xs text-slate-500">
+            &copy; 2026 DTIS Research Lab. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
